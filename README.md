@@ -1,26 +1,27 @@
 # Proximity-Operations-Tumbling-Debris
-Capstone project for the Spacecraft Formation Relative Orbits Specialization offered by the University of Boulder, Colorado via Coursera
 
-The simulation is about a mission of a servicer spacecraft approaching a tumbling debris object in low Earth orbit. The mission profile presented a series of proximity maneuvers that used continuous feedback control.
+Capstone project for the Spacecraft Formation Relative Orbits Specialization offered by the University of Boulder, Colorado via Coursera.
 
-# Drifting Spiral Trajectory
+This project simulates a proximity operations mission in which a servicer spacecraft approaches and inspects a tumbling debris object in low Earth orbit. The mission profile consists of a sequence of controlled proximity maneuvers executed using continuous feedback control.
 
-The drifting elliptical relative orbit enables a full-angle inspection of the debris. The reference trajectories were computed using relative orbital elements (ROEs), with all dynamics modeled in the LVLH frame.
+## Drifting Spiral Trajectory
 
-![task5](https://github.com/user-attachments/assets/f7d4ce55-b5b3-4b15-821d-aafe026f670f)
+A drifting elliptical relative orbit is used to enable full-angle inspection of the debris. Reference trajectories are defined using Relative Orbital Elements (ROEs), with the dynamics modeled in the LVLH frame.
 
-# Fixed Position relative to the debris
+![task5](https://github.com/user-attachments/assets/1d61b8b3-297c-462d-ac04-081bfe50ddba)
 
-The servicer first helds a fixed position relative to the debris body frame, following a non-Keplerian reference trajectory.
+## Fixed Position Relative to the Debris
 
-![task7](https://github.com/user-attachments/assets/025e738b-9624-4bd7-b694-e3606e85205b)
+The servicer maintains a fixed position with respect to the debris body frame by following a non-Keplerian reference trajectory.
 
-# Final Approach Trajectory
+![task7](https://github.com/user-attachments/assets/0fc6cd5d-f0e3-4ca0-82b4-f3d71fda3f41)
 
-The services approaches the debris maintaining a constant approach rate along a defined direction in the debris body frame. The servicer follows as weel a non-Keplerian reference trajectory.
+## Final Approach Trajectory
 
-![task8](https://github.com/user-attachments/assets/cea7bbb4-4114-4620-b0a0-128da2e1f538)
+The servicer approaches the debris while maintaining a constant approach rate along a predefined direction in the debris body frame. This phase also follows a non-Keplerian reference trajectory.
 
-# Code Sample
+![task8](https://github.com/user-attachments/assets/e18e56a4-9515-42eb-b09a-5df5d83e2ed9)
 
-A code sample of the propagator is included in the repository. The code sample shows the core logic of the orbital propagator, integration of attitude dynamics using a Runge-Kutta method. This code sample was written in Python language.
+## Code Sample
+
+A code sample of the orbital propagator is included in this repository. The sample illustrates the core logic of the relative motion propagation, reference trajectory tracking, and feedback control implementation. The numerical integration is performed using a Runge–Kutta method in Python.
