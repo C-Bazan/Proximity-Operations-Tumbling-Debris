@@ -23,5 +23,4 @@ The servicer approaches the debris while maintaining a constant approach rate al
 ![task8](https://github.com/user-attachments/assets/e18e56a4-9515-42eb-b09a-5df5d83e2ed9)
 
 ## Code Sample
-
-A code sample of the orbital propagator is included in this repository. The sample illustrates the core logic of the relative motion propagation, reference trajectory tracking, and feedback control implementation. The numerical integration is performed using a Runge–Kutta method in Python.
+A code sample of the orbital propagator is included in this repository. The sample illustrates the core logic of relative motion propagation, reference trajectory generation and tracking, and feedback control implementation. Numerical integration of the relative dynamics is performed using a first-order (forward) Euler method implemented in Python. The sample corresponds to the most representative maneuver among those described above, namely the servicer maintaining a fixed position with respect to the debris body frame during proximity operations.
