@@ -1,5 +1,7 @@
 # Proximity-Operations-Tumbling-Debris
 
+Author: Carlos Eduardo Bazán Bravo.
+
 Capstone project for the Spacecraft Formation Relative Orbits Specialization offered by the University of Boulder, Colorado via Coursera.
 
 This project simulates a proximity operations mission in which a servicer spacecraft approaches and inspects a tumbling debris object in low Earth orbit. The mission profile consists of a sequence of controlled proximity maneuvers executed using continuous feedback control.
